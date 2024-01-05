@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/xiaomi/sm6150-common
-git clone -b UNO https://github.com/ProjectElixir-Devices/device_xiaomi_sm6150-common_sweet device/xiaomi/sm6150-common
+git clone -b UNO-derp https://github.com/Tree-sources/device_xiaomi_sm6150-common device/xiaomi/sm6150-common
 
 # Vendor Tree
 rm -rf vendor/xiaomi
@@ -26,4 +26,4 @@ git clone --depth=1 -b lineage-21.0 https://github.com/LineageOS/android_hardwar
 
 # Hardware Xiaomi
 rm -rf hardware/xiaomi
-git clone https://github.com/Project-Elixir/hardware_xiaomi hardware/xiaomi
+git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
